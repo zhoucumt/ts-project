@@ -1,3 +1,12 @@
+// tsc index.js
+// --outDir
+// tsc --outDir ./dist ./src/index.ts
+
+// target
+// tsc --outDir ./dist --target ES6 ./src/index.ts
+
+// watch
+// tsc --outDir ./dist --target ES6 --watch ./src/index.ts
 function greeter(person: string) {
     return 'hello, ' + person;
 }
