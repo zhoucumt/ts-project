@@ -24,3 +24,7 @@ var tom = {
     age: 3
 };
 var str = 'a';
+// never类型
+function fn() {
+    throw new Error('error');
+}

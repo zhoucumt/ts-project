@@ -35,3 +35,9 @@ let tom: Person = {
     age: 3
 }
 let str: string = 'a'
+
+
+// never类型
+function fn(): never {
+    throw new Error('error');
+}
