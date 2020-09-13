@@ -6,6 +6,7 @@
 // tsc --outDir ./dist --target ES6 ./src/index.ts
 // watch
 // tsc --outDir ./dist --target ES6 --watch ./src/index.ts
+// -p 设置配置文件
 function greeter(person) {
     return 'hello, ' + person;
 }
@@ -22,3 +23,4 @@ var tom = {
     name: 'Tom',
     age: 3
 };
+var str = 'a';

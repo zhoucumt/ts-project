@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/zhoucumt/ts-project/issues"
   },
-  "homepage": "https://github.com/zhoucumt/ts-project#readme"
+  "homepage": "https://github.com/zhoucumt/ts-project#readme",
+  "dependencies": {
+    "@types/baidumap-web-sdk": "0.0.4"
+  }
 }

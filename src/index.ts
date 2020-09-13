@@ -7,6 +7,8 @@
 
 // watch
 // tsc --outDir ./dist --target ES6 --watch ./src/index.ts
+
+// -p 设置配置文件
 function greeter(person: string) {
     return 'hello, ' + person;
 }
@@ -32,3 +34,4 @@ let tom: Person = {
     name: 'Tom',
     age: 3
 }
+let str: string = 'a'
